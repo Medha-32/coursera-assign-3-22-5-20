@@ -1,0 +1,82 @@
+body{
+  font: "Oxygen";
+  background-color: #514dc9;
+  font-size: 16px;
+  color: #313332;
+}
+.navbar-brand{
+  padding: 25px;
+  width: 200px;
+  height: 80px;
+}
+.navbar-brand h1{ /* Medha Agarwal */
+  font-family: 'Lora', serif;
+  color: #61020b;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 30px;
+
+}
+.navbar-brand p{
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 3px;
+  font-size: 0.7em;
+
+}
+.navbar-brand p span{
+  vertical-align: middle;
+}
+#d-content{
+  margin-top: 50px;
+  padding-top: 10px;
+  border: 2px solid black;
+  box-shadow: 0 1px 5px 1px #cccccc;
+  border-radius: 3px;
+  background-color: #fff;
+}
+#nav-list{
+
+  background-color: #ff5efc;
+}
+#nav-list li{
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  color: #514dc9;
+  text-align: center;
+  vertical-align: middle;
+}
+#nav-list li:hover{
+  background: #E7E7E7;
+}
+div> p{
+  padding: 10px;
+  text-align: justify;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid #514dc9;
+}
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -60px;
+}
+#header-nav{
+  background-color: #fff6ba;
+  border-radius: 0;
+  border: 0;
+}
+@media (max-width: 767px) {
+.navbar-brand{
+  width: 50%;
+  font-size: 95%;
+}
+#collapsable-nav ul{
+  font-size: 0.9em;
+  border: 1px;
+}
+
+}
